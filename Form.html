@@ -31,14 +31,37 @@
 <body>
 	<div class="container">
 		<form method="GET" id="search">
+			<p>
+				<label>ФИО</label>
+			</p>
 		<p>
-		      <input type="text" name="quary">
+		      <input type="text" name="name" id="name" placeholder="ФИО">
 		</p>
 		<p>
-		      <input type="text" name="a">
+				<label for="phone">Телефон</label>
+			</p>
+		<p>
+		      <input type="tel" name="phone" id="phone" placeholder="Телефон">
+		</p>
+		<label for="course"> Класс</label>
+		<select name="course" id="course">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+		<p>
+				<label for="about">ABOUT</label>
+			</p>
+		
+		<p>
+			<textarea rows="10" cols="40" placeholder="телефон"> </textarea>
+		</p>
 
 		</p>
 		<button type="Submit" >Submit</button>
+		
 	</form>
 		
 	</div>
